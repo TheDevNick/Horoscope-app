@@ -15,7 +15,7 @@ body {
 }
 
 main {
-  margin-top:  10em;
+  margin-top: 4em;
 }
 
 .flex {
@@ -32,23 +32,38 @@ form {
 
 form label {
   display: block;
-  margin: 0.5em;
+  margin: 1em 0;
+  font-size: 1.3rem;
+
 }
 
-form input {
-  padding: 0.5em 2em;
-  margin: 0.8em;
+
+#submit {
+  padding: 0.5em 1.5em;
+  margin: 1.5em 0;
+  width: 100%;
+
+  text-decoration:none;
+  font-size: 1.7rem;
+  text-align: center;
+  background: #fff;
+  color: #2980b9;
+  border-radius: 10px;
 }
 
+#submit:hover {
+  
+}
+
+#selection,
 #day {
-  padding: 0.5em 2em;
+  padding: .8em 5em;
+  width: 100%;
   border: none;
+  text-align: center;
+  font-size: 1.2rem;
 }
 
-#month {
-  padding: 0.5em 2em;
-  border: none;
-}
 
 /******************************************
 /* ADDITIONAL STYLES
